@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - prints the 9 time table, starting with 0
+ * timse_table - prints the 9 time table, starting with 0
  */
 void times_table(void)
 {
@@ -14,7 +14,7 @@ void times_table(void)
 			k = j * i;
 			if (j == 0)
 			{
-				_putchar(k +'0');
+				_putchar(k + '0');
 			}
 
 			if (k < 10 && j != 0)
