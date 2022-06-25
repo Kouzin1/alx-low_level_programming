@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	}
 	while (count < argc)
 	{
-		for (i = 0; argc[count][i] != '\0'; i++)
+		for (i = 0; argv[count][i] != '\0'; i++)
 		{
 			if (!(isdigit(argv[count][i])))
 			{
@@ -33,6 +33,6 @@ int main(int argc, char *argv[])
 		sum += atoi(argv[count]);
 		count++;
 	}
-	print("%d\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
