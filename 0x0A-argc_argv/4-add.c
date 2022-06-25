@@ -1,8 +1,8 @@
-#include <stdio.h>
 #include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
- * _atoi -converts a string to an integer
+ * _atoi - converts a string to an integer
  * @s: string to be converted
  *
  * Return: the int converted from the string
@@ -39,6 +39,7 @@ int _atoi(char *s)
 		}
 		i++
 	}
+
 	if (f == 0)
 		return (0);
 
@@ -49,7 +50,7 @@ int _atoi(char *s)
  * @argc: number of a guments
  * @argv: array of arguments
  *
- * Return: 0 (Success), or 1(error)
+ * Return: 0 (Success), or 1(Error)
  */
 int main(int argc, char *argv[])
 {
