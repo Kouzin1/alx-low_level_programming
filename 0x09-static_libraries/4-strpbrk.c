@@ -5,7 +5,7 @@
  * the string accept
  *
  * @s: string where search is made
- * accept: string where searched bytes are located
+ * @accept: string where searched bytes are located
  *
  * Return: returns a pointer to the byte in s that matches
  * one of the bytesin accept, or NULL if no such bytesis found
