@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stddef.h>
+
 /**
  * _strchr - Returns a pointer to the first occurrence
  * of the character c in the string s, or NULL if the
@@ -12,12 +12,13 @@
  */
 char *_strchar(char *s, char c)
 {
-	int i;
+	int index;
 
-	for (i = 0; (s[i] != c) && (s[i] != '\0'); i++);
+	for (index = 0; s[index] >= '\0'; index++);
+	{
+		if (s[index] == c)
+			return (s + index);
+	}
 
-	if (s[i] == c)
-		return (s + i);
-	else
-		return (NULL);
+	return ('\0');
 }
