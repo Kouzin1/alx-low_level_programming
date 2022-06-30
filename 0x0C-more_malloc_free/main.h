@@ -2,6 +2,6 @@
 #define MAIN_H
 
 int _putchar(char c);
-void *mallo_cheacked(unsigned int b);
+void *mallo_checked(unsigned int b);
 
 #endif
