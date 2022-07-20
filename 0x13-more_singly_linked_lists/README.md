@@ -9,4 +9,5 @@ File 7-get_nodeint.c is a function returns the nth node of  a listint_t linked l
 File 8-sumlistint.c is a function that returns the sum of all data (n) of a listint_t linked list.
 File 9-insert_nodeint.c is a function that inserts a new node at a given position.
 File 10-delete_nodeint.c is a function that deletes the node at the index of a listint_t linked list.
+File 100-reverse_listint.c is a function that reverses a linked list.
 File lists.h is the header file containing all these function prototypes and the data structure listint_t.
