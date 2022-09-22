@@ -18,7 +18,7 @@ int main(void)
 	hash_table_set(ht, "python", "awesome");
 	hash_table_set(ht, "Bob", "and Kris love asm");
 	hash_table_set(ht, "N", "queens");
-	hash_table_set(ht, "Asrerix", "Obelix");
+	hash_table_set(ht, "Asterix", "Obelix");
 	hash_table_set(ht, "Betty", "Cool");
 	hash_table_set(ht, "98", "Battery Street");
 	hash_table_set(ht, "c", "isfun");
@@ -38,6 +38,6 @@ int main(void)
 	value = hash_table_get(ht, "c");
 	printf("%s:%s\n", "c", value);
 	value = hash_table_get(ht, "javascript");
-	printf("%s:%s\n", "javascript" value);
+	printf("%s:%s\n", "javascript", value);
 	return (EXIT_SUCCESS);
 }
