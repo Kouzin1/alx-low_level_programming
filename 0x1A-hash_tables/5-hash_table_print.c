@@ -23,7 +23,7 @@ void hash_table_print(const hash_table_t *ht)
 {
 	unsigned long int i;
 	hash_node_t *node = NULL;
-	char *lasr_key = NULL;
+	char *last_key = NULL;
 	unsigned long int index;
 
 	if (!ht)
