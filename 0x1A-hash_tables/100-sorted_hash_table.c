@@ -190,7 +190,7 @@ void shash_table_delete(shash_table_t *ht)
  *
  * Return: 1 on success, 0 on failure
  */
-int replace_value_s(shash_node_t **ht, const char *key, constchar *value)
+int replace_value_s(shash_node_t **ht, const char *key, const char *value)
 {
 	shash_node_t *temp = *ht;
 
