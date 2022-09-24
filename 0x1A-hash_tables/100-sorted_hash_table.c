@@ -235,7 +235,7 @@ shash_node_t *add_node_s(shash_node_t **head, const char *key, const char *value
 {
 	shash_node_t *new;
 
-	new = calloc(!, sizeof(shash_node_t));
+	new = calloc(1, sizeof(shash_node_t));
 	if (!new)
 		return (NULL);
 
